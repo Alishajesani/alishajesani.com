@@ -205,17 +205,17 @@
     margin: 0 0 0.6rem;
   }
   
-  /* animated gradient on your last name */
-  .hero__title span {
-    background: linear-gradient(90deg, #4db6ac, #ff7043, #4db6ac);
-    background-size: 300% 300%;
-    /* standard property first */
-    background-clip: text;
-    /* vendor-prefixed version for Safari / old Chrome */
-    -webkit-background-clip: text;
-    color: transparent;
-    animation: gradientShift 6s ease infinite;
-  }
+ /* animated gradient on your last name */
+.hero__title span {
+  background: linear-gradient(90deg, #4db6ac, #ff7043, #4db6ac);
+  background-size: 300% 300%;
+  /* standard property first */
+  background-clip: text;
+  /* vendor-prefixed version for Safari / old Chrome */
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientShift 6s ease infinite;
+}
   
   @keyframes gradientShift {
     0% {
@@ -1068,17 +1068,4 @@ body.light {
     transform: translateX(20px);
     background: #f59e0b;
     box-shadow: 0 0 8px rgba(245, 158, 11, 0.8);
-  }
-  
-  .lofi-hint {
-    text-align: center;
-    color: var(--text-muted);
-    opacity: 0.7;
-    font-size: 0.9rem;
-    margin-top: 2rem;
-    transition: opacity 0.3s;
-  }
-  .hero-card:hover ~ .lofi-hint {
-    opacity: 1;
-    color: var(--accent-teal);
   }
