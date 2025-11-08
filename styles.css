@@ -209,6 +209,9 @@
   .hero__title span {
     background: linear-gradient(90deg, #4db6ac, #ff7043, #4db6ac);
     background-size: 300% 300%;
+    /* standard property first */
+    background-clip: text;
+    /* vendor-prefixed version for Safari / old Chrome */
     -webkit-background-clip: text;
     color: transparent;
     animation: gradientShift 6s ease infinite;
