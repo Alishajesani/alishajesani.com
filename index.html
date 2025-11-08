@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alisha Jesani | Developer & Creator</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="aj-favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="aj-favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <meta name="theme-color" content="#02030A">
+</head>
+<body>
+  <!-- Particles background container -->
+  <div id="particles-js"></div>
+
+  <!-- Background grid + glow -->
+  <div class="bg-grid"></div>
+  <div class="bg-orbit bg-orbit--one"></div>
+  <div class="bg-orbit bg-orbit--two"></div>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="nav__brand">
+      <div class="nav__logo">AJ</div>
+      <div class="nav__text">
+        <span class="nav__name">Alisha Jesani</span>
+        <span class="nav__role">Student • Developer • Creator</span>
+      </div>
+    </div>
+
+    <div class="nav__right">
+      <nav class="nav__links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- Theme toggle switch -->
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle light/dark mode">
+        <span class="theme-toggle__track">
+          <span class="theme-toggle__thumb"></span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__left">
+        <p class="hero__tag">Hello, I’m</p>
+        <h1 class="hero__title">
+          Alisha <span>Jesani</span>
+        </h1>
+        <p class="hero__subtitle">
+          A tech-curious student in Canada exploring
+          <span class="hero__highlight">web dev, apps, and creative tools</span>.
+          I build clean, modern experiences that feel a little bit futuristic.
+        </p>
+
+        <div class="hero__badges">
+          <span class="chip chip--primary">Tech-Creative Portfolio</span>
+          <span class="chip">Web • Apps • UI</span>
+        </div>
+
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="#contact" class="btn btn--ghost">Let’s connect</a>
+        </div>
+
+        <div class="hero__meta">
+          <div>
+            <span class="hero__meta-label">Based in</span>
+            <span class="hero__meta-value">British Columbia, Canada</span>
+          </div>
+          <div>
+            <span class="hero__meta-label">Currently</span>
+            <span class="hero__meta-value">Studying &amp; building side projects</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="hero-card">
+          <div class="hero-card__header">
+            <span class="hero-card__status-dot"></span>
+            <span>now.playing</span>
+          </div>
+          <div class="hero-card__body">
+            <p class="hero-card__label">Focus</p>
+            <h2 class="hero-card__title">Code • Design • Real-world impact</h2>
+            <p class="hero-card__text">
+              I enjoy turning ideas into working prototypes—whether that’s a task
+              manager, a clothing website, or a private chat concept app.
+            </p>
+            <div class="hero-card__grid">
+              <div>
+                <p class="hero-card__metric-label">Stack</p>
+                <p class="hero-card__metric">HTML · CSS · JS · React · Firebase</p>
+              </div>
+              <div>
+                <p class="hero-card__metric-label">Superpower</p>
+                <p class="hero-card__metric">Blending tech + creativity</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card__footer">
+            <span>Always learning</span>
+            <span class="hero-card__pill">Open to internships &amp; collabs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section__heading">
+        <h2>About Me</h2>
+        <p>Who I am beyond the code.</p>
+      </div>
+
+      <div class="about">
+        <div class="about__main">
+          <p>
+            I’m <strong>Alisha Jesani</strong>, a tech-creative student currently in
+            Canada, exploring computer engineering, computing science, and how
+            technology can make everyday life smoother and more interesting.
+          </p>
+          <p>
+            I love building things that look modern and feel intuitive—whether
+            that’s a sleek clothing store, a task manager with reminders, or a
+            concept chat app. For me, code isn’t just logic; it’s a way to design
+            experiences that people actually enjoy using.
+          </p>
+          <p>
+            Outside of pure tech, I’m interested in design, problem-solving,
+            entrepreneurship, and using AI tools to speed up workflows and bring
+            ideas to life faster.
+          </p>
+        </div>
+
+        <div class="about__side">
+          <div class="info-card">
+            <h3>Education</h3>
+            <p>BSc student at Simon Fraser University (SFU), British Columbia.</p>
+          </div>
+          <div class="info-card">
+            <h3>What I’m into</h3>
+            <p>
+              Web apps, creative UI, automation with AI, and building projects
+              that feel like real products, not just homework.
+            </p>
+          </div>
+          <div class="info-card">
+            <h3>Goal</h3>
+            <p>
+              Grow into a developer who can take a concept from idea to polished,
+              shipped product—both technically and visually.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section__heading">
+        <h2>Tech Stack</h2>
+        <p>Tools I’m currently using and learning.</p>
+      </div>
+
+      <div class="skills">
+        <div class="skills__group">
+          <h3>Languages</h3>
+          <ul>
+            <li>C / C++</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skills__group">
+          <h3>Web &amp; App</h3>
+          <ul>
+            <li>HTML5, CSS3</li>
+            <li>React (fundamentals)</li>
+            <li>Firebase (Auth &amp; Firestore)</li>
+          </ul>
+        </div>
+
+        <div class="skills__group">
+          <h3>Tools</h3>
+          <ul>
+            <li>VS Code</li>
+            <li>Git &amp; GitHub</li>
+            <li>Figma (UI sketches)</li>
+          </ul>
+        </div>
+
+        <div class="skills__group">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Problem-solving</li>
+            <li>Communication</li>
+            <li>Teamwork &amp; adaptability</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section__heading">
+        <h2>Projects</h2>
+        <p>Some of the things I’ve built or am building.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__pill">Web • E-commerce</span>
+            <h3>GoldLeaf Clothing</h3>
+          </div>
+          <p class="project-card__desc">
+            A luxury-style clothing website with a dark green &amp; gold aesthetic,
+            interactive product sections, and Stripe integration for payments.
+            Includes “people also bought” suggestions and detailed product views.
+          </p>
+          <ul class="project-card__tags">
+            <li>React</li>
+            <li>Stripe</li>
+            <li>UI Design</li>
+          </ul>
+          <a href="#" class="project-card__link">View project →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__pill">Web • Productivity</span>
+            <h3>Task Manager App</h3>
+          </div>
+          <p class="project-card__desc">
+            A personal task manager concept with user accounts, reminders,
+            notes, and a clean dashboard. Uses Firebase for authentication and
+            Firestore for storing user tasks and profile data.
+          </p>
+          <ul class="project-card__tags">
+            <li>React</li>
+            <li>Firebase Auth</li>
+            <li>Firestore</li>
+          </ul>
+          <a href="#" class="project-card__link">View project →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__pill">App Concept</span>
+            <h3>Whatstagram Chat</h3>
+          </div>
+          <p class="project-card__desc">
+            A two-person private chat app concept that mixes the idea of
+            Instagram message requests with WhatsApp-style private chats.
+            Includes user sign-up, profile creation, and real-time messaging (planned).
+          </p>
+          <ul class="project-card__tags">
+            <li>Android</li>
+            <li>Firebase</li>
+            <li>UX Concept</li>
+          </ul>
+          <a href="#" class="project-card__link">View project →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="section__heading">
+        <h2>Experience &amp; Achievements</h2>
+        <p>Things that shaped how I work and think.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>Brand Associate – GAP</h3>
+            <p class="timeline__meta">Customer service • Retail</p>
+            <p>
+              Worked in a fast-paced retail environment helping customers, managing
+              inventory, and keeping the store experience positive—building
+              communication, teamwork, and responsibility.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>Aloha – 1st Place (Max Sum Challenge)</h3>
+            <p class="timeline__meta">Problem-solving</p>
+            <p>
+              Solved a maximum sum problem in 5 minutes, earning first place and
+              highlighting strong analytical thinking and time-pressure focus.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>100/100 in Mathematics (Case Board)</h3>
+            <p class="timeline__meta">Academics</p>
+            <p>
+              Achieved a perfect score in mathematics, reflecting dedication,
+              discipline, and a solid foundation in logic and quantitative thinking.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--accent" id="contact">
+      <div class="section__heading">
+        <h2>Let’s Connect</h2>
+        <p>Open to internships, collaborations, and interesting ideas.</p>
+      </div>
+
+      <div class="contact">
+        <div class="contact__info">
+          <p><span>Preferred:</span>
+            <!-- TODO: put your real email -->
+            <a href="mailto:youremail@example.com">youremail@example.com</a>
+          </p>
+          <p><span>LinkedIn:</span>
+            <!-- TODO: replace with your real profile -->
+            <a href="#" target="_blank">linkedin.com/in/alishajesani</a>
+          </p>
+          <p><span>GitHub:</span>
+            <!-- TODO: replace with your real GitHub -->
+            <a href="#" target="_blank">github.com/alishajesani</a>
+          </p>
+        </div>
+
+        <!-- TODO: replace CV link when you have a PDF -->
+        <a href="#" class="btn btn--primary contact__btn">Download CV</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Music play pill -->
+  <div class="now-playing" id="nowPlaying">🎧 Click to play Lo-Fi beats</div>
+
+  <!-- Lo-Fi Audio (lofi.mp3 must be in the same folder as this file) -->
+  <audio id="lofiAudio" loop preload="auto">
+    <source src="lofi.mp3" type="audio/mpeg" />
+  </audio>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Alisha Jesani • Built with curiosity &amp; caffeine.</p>
+  </footer>
+
+  <!-- tsparticles library -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      console.log("DOM ready");
+
+      // === Custom cursor glow ===
+      const cursor = document.createElement("div");
+      cursor.style.cssText = `
+        position: fixed;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: radial-gradient(circle, #4DB6AC 0%, transparent 70%);
+        pointer-events: none;
+        z-index: 9999;
+      `;
+      document.body.appendChild(cursor);
+      document.addEventListener("mousemove", (e) => {
+        cursor.style.left = e.clientX - 10 + "px";
+        cursor.style.top = e.clientY - 10 + "px";
+      });
+
+      // === Background stars (safe wrapper) ===
+      try {
+        if (window.tsParticles) {
+          tsParticles.load("particles-js", {
+            fpsLimit: 60,
+            fullScreen: { enable: false },
+            particles: {
+              number: { value: 80, density: { enable: true, area: 800 } },
+              color: { value: "#ffffff" },
+              shape: { type: "circle" },
+              opacity: { value: 0.8, random: true },
+              size: { value: 2, random: true },
+              move: { enable: true, speed: 0.3, outModes: { default: "out" } },
+            },
+          });
+        } else {
+          console.warn("tsParticles not available – skipping stars");
+        }
+      } catch (e) {
+        console.error("Error with tsParticles:", e);
+      }
+
+      // === Footer year ===
+      const yearEl = document.getElementById("year");
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+
+      // === Smooth scroll ===
+      document.querySelectorAll('a[href^="#"]').forEach((link) => {
+        link.addEventListener("click", (e) => {
+          const target = document.querySelector(link.getAttribute("href"));
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+
+      // === Theme toggle ===
+      const themeToggle = document.getElementById("themeToggle");
+      const body = document.body;
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme === "light") body.classList.add("light");
+
+      const updateToggleClass = () => {
+        if (!themeToggle) return;
+        themeToggle.classList.toggle(
+          "theme-toggle--light",
+          body.classList.contains("light")
+        );
+      };
+      updateToggleClass();
+
+      if (themeToggle) {
+        themeToggle.addEventListener("click", () => {
+          body.classList.toggle("light");
+          localStorage.setItem(
+            "theme",
+            body.classList.contains("light") ? "light" : "dark"
+          );
+          updateToggleClass();
+        });
+      }
+
+      // === Music click-to-toggle ===
+      const nowPlaying = document.getElementById("nowPlaying");
+      const audio = document.getElementById("lofiAudio");
+
+      console.log("Audio element:", audio);
+      console.log("Now playing pill:", nowPlaying);
+
+      if (audio && nowPlaying) {
+        audio.volume = 0.4;
+
+        nowPlaying.addEventListener("click", async () => {
+          try {
+            if (audio.paused) {
+              await audio.play();
+              console.log("Audio playing");
+              nowPlaying.textContent = "⏸ Click to stop Lo-Fi beats";
+            } else {
+              audio.pause();
+              console.log("Audio paused");
+              nowPlaying.textContent = "🎧 Click to play Lo-Fi beats";
+            }
+          } catch (err) {
+            console.error("Play blocked:", err);
+            alert("Your browser blocked the audio. Click the page once, then click again!");
+          }
+        });
+      } else {
+        console.warn("Could not find audio or pill element");
+      }
+    });
+  </script>
+</body>
+</html>
